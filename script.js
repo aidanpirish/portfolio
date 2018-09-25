@@ -1,4 +1,14 @@
-var cards_div = document.getElementById('card-container')
+var projects_div = document.getElementById('project-container')
+var projects_btn = document.getElementById('projects-btn')
+
+var about_div = document.getElementById('about-container')
+var about_btn = document.getElementById('about-btn')
+
+var resume_div = document.getElementById('resume-container')
+var resume_btn = document.getElementById('resume-btn')
+
+var contact_div = document.getElementById('contact-container')
+var contact_btn = document.getElementById('contact-btn')
 
 $.getJSON("./data.json", function (data) {
   $.each(data, function (index, value) {
@@ -8,6 +18,38 @@ $.getJSON("./data.json", function (data) {
     })
   });
 });
+
+
+// LAZY SINGLE PAGE ROUTING
+
+about_btn.addEventListener('click', ()=>{
+  projects_div.style.display = 'none'
+  resume_div.style.display = 'none'
+  contact_div.style.display = 'none'
+  about_div.style.display = 'block'
+})
+
+projects_btn.addEventListener('click', ()=>{
+  about_div.style.display = 'none'
+  resume_div.style.display = 'none'
+  contact_div.style.display = 'none'
+  projects_div.style.display = 'block'
+})
+
+contact_btn.addEventListener('click', ()=>{
+  about_div.style.display = 'none'
+  resume_div.style.display = 'none'
+  projects_div.style.display = 'none'
+  contact_div.style.display = 'block'
+})
+
+resume_btn.addEventListener('click', ()=>{
+  about_div.style.display = 'none'
+  projects_div.style.display = 'none'
+  contact_div.style.display = 'none'
+  resume_div.style.display = 'block'
+})
+  
 
 
 
@@ -50,5 +92,5 @@ function createCard(project) {
       card.appendChild(action)
 
       // push card to document
-      cards_div.appendChild(card)
+      projects_div.appendChild(card)
 }

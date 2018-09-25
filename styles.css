@@ -1,10 +1,43 @@
 body {
-  background-color: #d32f2f;
+  background-color: #ffb300 ;
 }
 .desc {
   padding-top: 10px;
 }
 
-#card-container {
+#content-container {
   padding-top: 60px;
 }
+
+#project-container {
+  /* padding-top: 60px; */
+}
+
+#about-container {
+  display: none;
+}
+
+#resume-container {
+  display: none;
+}
+
+#contact-container {
+  display: none;
+}
+
+#port-card {
+  max-width:180px;
+  max-height:240px;
+  width: auto;
+  height: auto;
+}
+
+#port {
+  max-width:230px;
+  max-height:200px;
+  display:block;
+  margin:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
