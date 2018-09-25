@@ -1,0 +1,97 @@
+{
+   "projects":[
+      {
+        "title":"Mathemon",
+        "tech":[
+          "JavaScript",
+          "Angular",
+          "HTML",
+          "CSS",
+          "Firebase"
+        ],
+        "topics" : [
+          "Software Development",
+          "User Interface"
+        ],
+        "description":"Mathemon is a Pokemon inspired math games that is designed to test 4th grades on their math skills. This is a full stack applicaion with an Anuglar front-end with a Firebase database. In the application, teachers create accounts for all their students and students are then able to log in with their own accounts. A student progresses through the game by defeating the Mathemon and leveling up. Teachers can see the progress students are making with the leaderboard feature.",
+        "repository":""
+      },
+      {
+        "title":"Film Jamz",
+        "tech":[
+          "Python"
+        ],
+        "topics":[
+          "Data Mining",
+          "Data Science",
+          "Machine Learning",
+          "Data Visualization"
+        ],
+        "description":"Have you ever wondered what makes a movie succesful? What defines a successful movie, box office numbers or IMDb rating? In Film Jamz, we utilized a massive movie data table and used advanced data mining techniques to answer these questions. Using Python libraries such as sklearn, scipy, numpy, seaborn, and bokeh, we tested and implemented different data mining algorithms and created beautiful visualizations. ",
+        "repository":""
+      },
+      {
+        "title":"Chat Server",
+        "tech":[
+          "HTTP",
+          "Node.js",
+          "HTML",
+          "CSS"
+        ],
+        "topics":[
+          "Networks",
+          "User Interface",
+          "Web Development"
+        ],
+        "description":"The chat server is an easy-to-use messaging application that can be used on any browser. A user can start the server on their machine, and other users can connect to their server and chat through the browser. This application utilizes the Node.js libraries HTTP and socket.io. The most powerful part of this application is the ability to send private messages.",
+        "repository":""
+     },
+     {
+        "title":"Utah Animal Adoption Center Web App",
+        "tech":[
+          "JavaScript",
+          "Node.js",
+          "MySQL",
+          "HTML",
+          "CSS",
+          "Google Cloud Platform"
+        ],
+        "topics":[
+          "Databases",
+          "Cloud Computing",
+          "User Interface",
+          "Web Development"
+        ],
+        "description":"The Utah Animal Adoption Center (UAAC) is an animal shelter and provides adoption services. UAAC oversees many animals and keeps track of all the animals going in and out. This web application aims to provide organization through a web application. Through the app, queires of all complexities are performed to display and upload information.",
+        "repository":""
+   },
+   {
+      "title":"Financial Analysis of Pegasystems and Salesforce",
+      "tech":[
+        "Python"
+      ],
+      "topics":[
+        "Data Science",
+        "Financial Analysis",
+        "Data Visualization"
+      ],
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "repository":""
+    },
+    {
+      "title":"Web Server",
+      "tech":[
+        "Java",
+        "HTTP"
+      ],
+      "topics":[
+        "Concurrency",
+        "Multithreading",
+        "Networks",
+        "Web Development"
+      ],
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "repository":""
+    }
+  ]
+}
