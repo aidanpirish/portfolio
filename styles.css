@@ -4,3 +4,7 @@ body {
 .desc {
   padding-top: 10px;
 }
+
+#card-container {
+  padding-top: 60px;
+}
