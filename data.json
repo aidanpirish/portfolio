@@ -14,7 +14,7 @@
           "User Interface"
         ],
         "description":"Mathemon is a Pokemon inspired math games that is designed to test 4th grades on their math skills. This is a full stack applicaion with an Anuglar front-end with a Firebase database. In the application, teachers create accounts for all their students and students are then able to log in with their own accounts. A student progresses through the game by defeating the Mathemon and leveling up. Teachers can see the progress students are making with the leaderboard feature.",
-        "repository":""
+        "repository":"https://github.com/nblumenfeld/software_engineering_project"
       },
       {
         "title":"Film Jamz",
@@ -28,7 +28,7 @@
           "Data Visualization"
         ],
         "description":"Have you ever wondered what makes a movie succesful? What defines a successful movie, box office numbers or IMDb rating? In Film Jamz, we utilized a massive movie data table and used advanced data mining techniques to answer these questions. Using Python libraries such as sklearn, scipy, numpy, seaborn, and bokeh, we tested and implemented different data mining algorithms and created beautiful visualizations. ",
-        "repository":""
+        "repository":"https://github.com/aidanpirish/filmjamz"
       },
       {
         "title":"Chat Server",
@@ -43,8 +43,8 @@
           "User Interface",
           "Web Development"
         ],
-        "description":"The chat server is an easy-to-use messaging application that can be used on any browser. A user can start the server on their machine, and other users can connect to their server and chat through the browser. This application utilizes the Node.js libraries HTTP and socket.io. The most powerful part of this application is the ability to send private messages.",
-        "repository":""
+        "description":"This chat server is an easy-to-use messaging application that can be used on any browser. A user can start the server on their machine, and other users can connect to their server and chat through the browser. This application utilizes the Node.js libraries HTTP and socket.io. The most powerful part of this application is the ability to send private messages.",
+        "repository":"https://github.com/aidanpirish/chatroom"
      },
      {
         "title":"Utah Animal Adoption Center Web App",
@@ -63,7 +63,7 @@
           "Web Development"
         ],
         "description":"The Utah Animal Adoption Center (UAAC) is an animal shelter and provides adoption services. UAAC oversees many animals and keeps track of all the animals going in and out. This web application aims to provide organization through a web application. Through the app, queires of all complexities are performed to display and upload information.",
-        "repository":""
+        "repository":"https://github.com/aidanpirish/UAAC_DB"
    },
    {
       "title":"Financial Analysis of Pegasystems and Salesforce",
@@ -75,8 +75,8 @@
         "Financial Analysis",
         "Data Visualization"
       ],
-      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "repository":""
+      "description":"In my final class to complete my business minor, I wanted to incorpoorate all the Python I had learned that semester into a project that compares the finacial health of two companies. This project started by making csv tables from financial reports of two software companies, Pegasystems and Salesforce. The tables were then imported to a Jupyter Notebook. I utilized pandas to anaylze the data, and matplotlib to create visualizations.",
+      "repository":"https://github.com/aidanpirish/financial_analysis"
     },
     {
       "title":"Web Server",
@@ -90,8 +90,25 @@
         "Networks",
         "Web Development"
       ],
-      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "repository":""
+      "description":"This web server was completed for a homework assignment in Networks. The program uses a simple HTML document and opens up a port for connections. Each connection takes place within a thread. After completing this assignement, I had a newfound appreciation for multithreading and concurrency.",
+      "repository":"https://github.com/aidanpirish/WebServer"
+    },
+    {
+      "title":"CI Demo",
+      "tech":[
+        "Node.js",
+        "Docker",
+        "Kubernetes",
+        "YAML"
+      ],
+      "topics":[
+        "Continuous Integration",
+        "DevOps",
+        "Web Development",
+        "Distributed Systems"
+      ],
+      "description":"This porject was created as I was learning the ropes of Docker and Kubernetes. My end goal of learning these technologies was to understand the deployment of applications in Docker containers. The node application itself is a just a simple 'Hello, World!' This project introduced me to distributed systems and containers. After completing this demo, I gained a new appreciation for how much of the work is done for me when I make Node.js applications.",
+      "repository":"https://github.com/aidanpirish/CI_Demo"
     }
   ]
 }
