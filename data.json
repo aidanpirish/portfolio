@@ -1,5 +1,22 @@
 {
    "projects":[
+    {
+      "title":"StockSight",
+      "tech":[
+        "React",
+        "Python",
+        "Google Custom Search",
+        "Nameko"
+      ],
+      "topics" : [
+        "Software Development",
+        "User Interface",
+        "Machine Learning",
+        "Web Development"
+      ],
+      "description":"StockSight is my senior capstone project. This project demonstrates my ability to work with technologies on the front and back ends. StockSight is a new way to analyze historical stock prices for a specific company. Using data taken from AlphaVantage's API, the program constructs events for significant price increases and decreases. With these evnents, a custom google search is called within the timeframe of the event and returns news article headlines and descriptions. Using the text from the headlines, a classifer is used to categorize the event into a predefined set of possible reasons. The user is then presented the stock prices in a linegraph and is shown the reasoning for events.",
+      "repository":"https://github.com/aidanpirish/senior-project"
+      },
       {
         "title":"Mathemon",
         "tech":[
